@@ -1,0 +1,16 @@
+{
+  "sites": [
+    {
+      "name": "James Victor Alvarez",
+      "website": "https://jamesvictoralvarez.co",
+      "year": 2027,
+      "program": "COMP"
+    },
+    {
+      "name": "Rafael Vincent de Guzman",
+      "website": "https://rvdeguzman.com",
+      "year": 2027,
+      "program": "COMP"
+    }
+  ]
+}

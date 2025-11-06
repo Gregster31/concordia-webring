@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Iosevka';
+  src: url('/fonts/iosevka/Iosevka-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  src: url('/fonts/iosevka/Iosevka-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --accent1: #fbcb97;
+  --bg-hover: #333333;
+  --line: #252530;
+  --comment: #606079;
+  --builtin: #b4d4cf;
+  --func: #c48282;
+  --string: #fbcb97;
+  --number: #e0a363;
+  --property: #c1c1c1;
+  --constant: #aeaed1;
+  --parameter: #bb9dbd;
+  --visual: #333333;
+  --error: #d8647e;
+  --warning: #f3be7c;
+  --hint: #7e98e8;
+  --link: #7e98e8;
+  --operator: #9b99a3;
+  --keyword: #5f8787;
+  --type: #d0dfee;
+  --search: #405065;
+  --plus: #7fa563;
+  --delta: #f3be7c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Iosevka', monospace;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
