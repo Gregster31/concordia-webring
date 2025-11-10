@@ -53,6 +53,18 @@
       "website": "https://ranjitsinghdhunna.dev",
       "year": 2028,
       "program": "SOEN"
+    },
+    {
+      "name": "Alexander Chneerov",
+      "website": "https://mystaticsite.com/owner",
+      "year": 2027,
+      "program": "COMP"
+    },
+    {
+      "name": "Berenis Fopa Tsamo",
+      "website": "https://bernyft.com",
+      "year": 2028,
+      "program": "SOEN"
     }
   ]
 }
